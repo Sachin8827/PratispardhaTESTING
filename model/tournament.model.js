@@ -1,6 +1,6 @@
  const mongoose = require('mongoose');
  const { Schema } = require('mongoose');
-
+// Chutiya hai class
  const tournamentSchema = new mongoose.Schema({
      orgainiserId: {
          type: Schema.Types.ObjectId,
